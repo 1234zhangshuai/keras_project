@@ -13,7 +13,7 @@ conv_base = VGG16(weights='imagenet', include_top=False, input_shape=(150, 150, 
 # conv_base.summary()
 
 # 使用预训练的卷基提取特征（不使用数据增强的快速特征提取）
-base_dir = 'F:/python/Deeplearn_keras/cats_and_dogs_small' # 保存(创建)较小数据集的目录
+base_dir = 'F:/python/Deeplearn_keras/cats_and_dogs_small'  # 保存(创建)较小数据集的目录
 ############################################################################
 # 训练集目录
 train_dir = os.path.join(base_dir, 'train')
